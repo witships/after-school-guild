@@ -107,9 +107,6 @@
 	>
 		<div class="mx-auto flex max-w-7xl flex-col items-center gap-12 lg:flex-row">
 			<div class="flex-1 space-y-8 text-center lg:text-left">
-				<p class="text-sm font-bold tracking-widest text-blue-600 uppercase">
-					つくろう、最高の放課後だ。
-				</p>
 				<h2 class="text-5xl leading-tight font-black text-slate-900 lg:text-7xl">
 					“<span class="text-primary">好き</span>”をつなげて、<br />
 					<span class="font-extrabold text-secondary italic">未来</span>をつくろう。
@@ -137,7 +134,7 @@
 				</div>
 				<div class="flex flex-col items-center gap-4 pt-4 lg:items-start">
 					<button
-						class="rounded-full bg-primary px-12 py-5 text-xl font-bold text-white shadow-xl shadow-blue-200 transition-transform hover:scale-105"
+						class="rounded-full bg-secondary px-12 py-5 text-xl font-bold text-white shadow-xl shadow-blue-200 transition-transform hover:scale-105"
 						>体験クエストに挑む！ ＞</button
 					>
 					<p class="text-xs font-medium text-slate-400">※中学生・小学生・高校生が対象です</p>
@@ -409,5 +406,12 @@
 	.final {
 		background-image: url('/images/footer.webp');
 		background-size: cover;
+		h3,
+		p {
+			background: #ffffff90;
+			width: fit-content;
+			padding: 0.5rem;
+			border-radius: 1rem;
+		}
 	}
 </style>
